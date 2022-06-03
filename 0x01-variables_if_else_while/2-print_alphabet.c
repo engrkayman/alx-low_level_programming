@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/* Return 0 = Success */
 
-/* betty style doc for function main goes there */
+/* Main = Entry point of code */
 int main(void)
 {
 		char k;
 
-		for (k= 'a'; k <= 'z'; k++)
+		for (k = 'a'; k <= 'z'; k++)
 		putchar(k);
 
 		putchar('\n');
