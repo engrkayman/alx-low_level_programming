@@ -3,7 +3,7 @@
 #include <time.h>
 /* Return 0 = Success */
 
-/* Main = Entry point of code */
+/* main = Entry point of code */
 int main(void)
 {
 		char k;
