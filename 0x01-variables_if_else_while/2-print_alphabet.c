@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* Return 0 = Success */
-
-/* main = Entry point of code */
+/**
+ *  *  * main - Entry point
+ *   *   *
+ *    *    * Return: Always 0 (Success)
+ *     **/
 int main(void)
 {
 		char k;
