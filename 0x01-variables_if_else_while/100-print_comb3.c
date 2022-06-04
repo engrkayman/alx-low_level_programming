@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *  *  * main - Prints combination of numbers
  *   *   *
@@ -13,7 +14,7 @@ int main(void)
 
 	for (d = '0'; d <= '9'; d++)
 	{
-		for (l ='0'; l <= '9'; l++)
+		for (l = '0'; l <= '9'; l++)
 		{
 			if (d < l)
 			{
