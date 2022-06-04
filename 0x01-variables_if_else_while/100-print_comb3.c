@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  *  *  * main - Prints combination of numbers
@@ -7,25 +9,26 @@
  *     **/
 int main(void)
 {
-	int c;
-	int i;
-
-	for (c = '0'; c <= '9'; c++)
+	int d;
+	int l;
+	
+	for (d = '0'; d <= '9'; d++)
 	{
-		for (i = '0'; i <= '9'; i++)
+		for (l='0'; l <= '9'; l++)
 		{
-			if (c < i)
-																					{
-																						putchar(c);
-																						putchar(i);
-																							if (c != '8' || (c == '8' && i != '9'))
-																																									{
-																																										putchar(',');
-																																										putchar(' ');
-																																									}
-																																							}
-																				}
+			if (d < l)
+			{
+				putchar(d);
+				putchar(l);
+				
+				if (d != '8' || (d=='8' && l !='9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
-}
+}	
