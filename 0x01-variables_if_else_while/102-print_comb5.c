@@ -17,14 +17,14 @@ int main (void)
 			{
 				for (n = 48; n <= 57; n++)
 				{
-					if ((( m + n) > (k + l) && m >= k) || k < m)
+					if (((m + n) > (k + l) && m >= k) || k < m)
 					{
 						putchar(k);
 						putchar(l);
 						putchar(' ');
 						putchar(m);
 						putchar(n);
-					if (k + l + m + n ==227 && k==57)
+					if (k + l + m + n == 227 && k == 57)
 					{
 						break;
 					}
