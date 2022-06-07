@@ -1,8 +1,10 @@
 #include "main.h":
+#include <unistd.h>
 /**
  * * print_alphabet prints lowercase chars
  *
  * */
+int _putchar (int ch)
 
 void print_alphabet(void)
 {
