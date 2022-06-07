@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - Entry
  * 
@@ -8,17 +8,9 @@
 
 int main(void)
 {
-	char word[9] = "_putchar";
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
 
-	int k = 0;
-
-	while (k < 8)
-	{
-		_putchar(word[k]);
-		k++;
-
-	}
-	_putchar('\n'');
 	return (0);
-
 }
