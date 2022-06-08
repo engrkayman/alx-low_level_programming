@@ -15,7 +15,7 @@ void print_alphabet(void)
 
 int main(void)
 {
-	char alpha = 'a';
+	int alpha = 'a';
 
 	while (alpha <= 'z')
 
