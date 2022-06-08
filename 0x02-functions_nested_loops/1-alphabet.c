@@ -1,4 +1,4 @@
-#include "main.h":
+#include "main.h"
 #include <unistd.h>
 /**
  * * print_alphabet prints lowercase chars
@@ -11,7 +11,7 @@
  * *
  * *Return: Always 0;
  * */
-void print_alphabet(void);
+void print_alphabet(void)
 
 int main(void)
 {
@@ -26,6 +26,7 @@ int main(void)
 	}
 
 	_putchar('\n');
-	return (0);i
+
+	return (0);
 
 }
