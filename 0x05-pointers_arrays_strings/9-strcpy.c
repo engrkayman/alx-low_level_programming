@@ -1,4 +1,4 @@
-nclude "main.h"
+include "main.h"
 /**
 *  * _strcpy -  a function that copies the string.
 *   * @dest : character value
